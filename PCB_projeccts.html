@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="projects.html">Projects</a></li>
+							<li><a href="mozee.html">Mozee Motorsports</a></li>
+							<li><a href="work.html">Work Experience</a></li>
+                            <li><a href="about.html">More About Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.linkedin.com/in/sean-c-kabara/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">  2024/2025 Acedemic Year</span>
+								</header>
+								
+								<header>	
+									<h1><p>PCB Projects</p></h1>
+									<h2><p></h2></p>
+								</header>
+								
+								<text>
+									<p>I have had a hand in a few of the PCB projects on the formula hybrid team, though I would not say that it is my focus. As I enter a new role as the high voltage team lead, I plan to gain an even better understanding of how the PCB system on the car works.</p>
+									<p>To give you an overview, my current understanding is the car works similar to how your typical vehicle system would run - there are several boards located around the car and they all communicate over a CAN network. Each board is small and specialized at one particular task as opposed to having one large board that runs everything.</p>
+									<p>I haven’t had a direct hand in any of the boards that were used on the car this past year. The board that I worked on is the hybrid control board whose purpose is to essentially be the brains of the car. It was designed to be a driver display for RPM, gear, etc and interface with the other boards on the car for data collection. Our previous electrical lead John is the one who did the bulk of design on this project but I was lucky enough to be included since I had expressed interest at the beginning of the year. </p>
+									<div class="image left"><img src="images/tiny_LED_finger.jpg" alt="" /></div><p>We use MSOE’s license for Altium Designer, a professional PCB design software. I got the hang of the basics by designing the board pictured as the main photo for this project (and on the right here). I designed that board using Altium and exported the gerber files to be sent out for manufacturing. That included choosing the components using Altiums library, making a circuit schematic and then putting it all together in the final PCB layout. It is a test board meant to determine which resistance is appropriate for the tiny driver indicator LEDs that would eventually be on the final revision of the board. We did this because while there are current ratings for the LEDs in the data sheets there are not corresponding brightness levels so it was hard to tell what resistance to use in the final design. </p>
+									<p>As a beginner with little experience I had also never soldered before. I was eager to learn, and did not think it would be that difficult, however this particular soldering job proved to be pretty challenging for me. It may be hard to tell in the photo, but those LED’s are 0402 footprint. For those who do not know why that may be a challenge, the size in millimeters of the leds are 1.0 mm x 0.5 mm x 0.45 mm. Most fingertips are between 16-20 mm for some reference, so this led is around 1/20th of that size. </p>
+									<div class="image right"><img src="images/led_board.jpg" alt="" /></div><p>Needless to say a couple LEDs were lost in the assembly of this board. Whether the soldering iron accidentally incinerated the hardware of the LED or I dropped it and it was lost forever to the void known as the floor of the MSOE maker space, a few definitely got lost somehow. But eventually, I got the hang of it. I repeated the process quite a few times for a couple different colors for testing purposes and then did some basic calculations to determine the smallest resistor I could use without burning out the LED and increased from there.  </p>
+									<p>Overall, my experience with PCB projects has been very positive. I have learned a lot and have been able to contribute to the team in a meaningful way. I am excited to continue working on PCB projects in the future and to learn more about how they work.</p>
+								</text>
+							
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>4118 W Fieldview Court<br />
+								Franklin, WI 53132</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(414) 639-7466</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">kabaras@msoe.edu</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
